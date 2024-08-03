@@ -16,7 +16,7 @@ const BanefitComponent = () => {
 
             <div className='flex-1 p-5'>
                 <h1 className='font-bold text-2xl'>Accessible. Affordable. Adaptable</h1>
-                <p className='text-sm'>Whether you're an established enterprise or a scaling startup, your Virtual office should drive your business forward. Our virtual office solutions take your business places! (Accessible. Affordable. Adaptable)
+                <p className='text-sm'>{`Whether you're an established enterprise or a scaling startup, your Virtual office should drive your business forward. Our virtual office solutions take your business places! (Accessible. Affordable. Adaptable)`}
                 </p>
                 <div className='grid lg:grid-cols-2 mt-6 gap-10'>
                     {banefits.map((benefit, i) => (

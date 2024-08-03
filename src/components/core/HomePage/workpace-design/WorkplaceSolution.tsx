@@ -46,7 +46,7 @@ const WorkplaceSolution = () => {
       <div className='flex-1'>
         <div>
           <h2 className=' text-4xl'>Discover the Ultimate <br />  Workspace Solution</h2>
-          <p className='text-sm font-light'>From solo entrepreneurs to growing teams, find everything you need under one roof. Whether it's pay-per-use plans or fixed desks, our flexible options cater to your unique work style, ensuring seamless productivity and success.</p>
+          <p className='text-sm font-light'>{`From solo entrepreneurs to growing teams, find everything you need under one roof. Whether it's pay-per-use plans or fixed desks, our flexible options cater to your unique work style, ensuring seamless productivity and success.`}</p>
         </div>
 
         <div className='grid grid-cols-2 gap-10 mt-10'>
